@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  width: 40%;
+}
+
+.nav-link ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link ul li {
+  list-style: none;
+  display: block;
+  font-size: 19px;
+}
+
+.nav-link ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+content {
+  display: flex;
+}
+
+#position {
+  margin-top: 20%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+section aside {
+  width: 15%;
+  background-color: moccasin;
+  height: 100vh;
+  position: fixed;
+  padding: 7px;
+}
+
+section article {
+  background-color: palegreen;
+  margin-left: 15.1%;
+  padding: 15px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+
+p {
+  display: block;
+  padding: 10px;
+}
+
+#arrow {
+  font-size: 30px;
+  position: fixed;
+  right: 24px;
+  bottom: 10px;
+  font-weight: bold;
+  background-color: blue;
+  width: 3%;
+  height: 39px;
+  border-radius: 27px;
+  opacity: 0.5;
+}
+
+#arrow a {
+  text-align: center;
+  padding: 9px;
+  color: white;
+}
+}
+
+/* #arrow a {
+  font-size: 30px;
+  position: fixed;
+  right: 24px;
+  bottom: 10px;
+  font-weight: bold; */
